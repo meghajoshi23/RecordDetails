@@ -1,0 +1,187 @@
+﻿body {
+    background-image: url("../images/mainimage.jpg");
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+    /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+    background-attachment: fixed;
+    /* This is what makes the background image rescale based
+     on the container's size */
+    background-size: cover;
+    /* Set a background color that will be displayed
+     while the background image is loading */
+    background-color: #464646;
+}
+table {
+    border-collapse: collapse;
+}
+.mainbox {
+    text-align: center;
+    margin: 100px;
+    border: 30px solid black;
+    border-radius: 15px;
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    margin-left: 400px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    opacity: 0.8;
+    color: lightcyan;
+    padding-bottom: 20px;
+    font-size: large;
+    display: block;
+    position: absolute;
+}
+
+.textbox {
+    border-radius: 100px;
+    height: 30px;
+    width: 250px;
+    resize: both;
+    text-transform: uppercase;
+}
+
+.label {
+    height: 5px;
+    width: 20px;
+    text-align: left;
+}
+
+.submit {
+    border-radius: 100px;
+    height: 40px;
+    width: 80px;
+    color: lightcyan;
+    /*background-color: rgb(248, 105, 53);*/
+    background-color: rgb(12, 183, 189);
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    resize: both;
+}
+.allbox {
+    border: 20px solid black;
+    border-radius: 15px;
+    width: 96%;
+   height:88%;
+    padding: 10px;
+    /*margin-left: 280px;*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    opacity:0.8;
+    color: lightcyan;
+    padding-bottom: 10px;
+    font-size: large;
+    display: block;
+    position: absolute;
+}
+
+.usinput {
+    text-transform: uppercase;
+    border-radius: 100px;
+    height: 30px;
+    width: 250px;
+    resize: both;
+}
+
+.uslabel {
+    height: 5px;
+    width: 20px;
+    text-align: left;
+}
+}
+.submit {
+    margin-left: 10px;
+    margin-right: 40px;
+    text-align: center;
+    border-radius: 100px;
+    height: 40px;
+    width: 150px;
+    color: lightcyan;
+    /*background-color: rgb(248, 105, 53);*/
+    background-color: rgb(12, 183, 189);
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    resize: both;
+    float: right;
+}
+.grid_scroll {
+    /*height: 50px;
+    width: 391px;*/
+    /*overflow: scroll;*/
+    overflow: auto;
+    height: 10px;
+    border: solid 1px black;
+    height: 400px;
+    width: auto;
+    margin-left: 0px;
+    margin-top: 0;
+    column-gap:10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    box-shadow: none;
+    
+ }
+.submitClose {
+    margin-left: 10px;
+    margin-right:50px;
+    text-align: center;
+    border-radius: 100px;
+    height: 40px;
+    width: 150px;
+    color: lightcyan;
+    /*background-color: rgb(248, 105, 53);*/
+    background-color: rgb(12, 183, 189);
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    resize: both;
+    float:right;
+}
+.submitEdit {
+    margin-left: 10px;
+    margin-right:40px;
+    text-align: center;
+    border-radius: 100px;
+    height: 40px;
+    width: 150px;
+    color: lightcyan;
+    /*background-color: rgb(248, 105, 53);*/
+    background-color: rgb(12, 183, 189);
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    resize: both;
+    float: right;
+}
+.searchbtn {
+    text-align: center;
+    border-radius: 100px;
+    height: 30px;
+    width: 80px;
+    color: lightcyan;
+    /*background-color: rgb(248, 105, 53);*/
+    background-color: rgb(12, 183, 189);
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    resize: both;
+}
+
+.newpartybtn {
+    text-align: center;
+    border-radius: 100px;
+    height: 30px;
+    width: 90px;
+    color: lightcyan;
+    /*background-color: rgb(248, 105, 53);*/
+    background-color: rgb(12, 183, 189);
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    resize: both;
+}
+@media screen and (max-width: 600px) {
+    .usinput, .uslabel, .submit,.submitEdit,.submitClose {
+        width: 100%;
+        margin-top: 0;
+    }
+}

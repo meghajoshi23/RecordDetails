@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MultiproData", "MultiproData\MultiproData.vbproj", "{48978B93-057C-4E77-AC50-F29E04ED5DA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48978B93-057C-4E77-AC50-F29E04ED5DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48978B93-057C-4E77-AC50-F29E04ED5DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48978B93-057C-4E77-AC50-F29E04ED5DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48978B93-057C-4E77-AC50-F29E04ED5DA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {578679BB-7FD8-4272-A7CD-4AD70324A297}
+	EndGlobalSection
+EndGlobal
